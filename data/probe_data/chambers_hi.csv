@@ -1,0 +1,41 @@
+﻿site,date,successful,location,description,dominant,chamber,oxy probe A,oxy probe B,light probe A,light probe B,PS start,PS end,R start,R end,lat,long,weather,site_volume,site_area
+hi01,09/24/2021,y,kbay_A,porites,P. compressa,OG,P0,NA,,,11:38,11:55,11:57,12:07,,,partly cloudy,19914648,721226.3
+hi02,09/24/2021,y,kbay_A,monti,M. capitata,OG,P0,NA,,,12:13,12:28,12:41,12:51,,,partly cloudy,6107913,662919.6
+hi03,09/24/2021,y,kbay_A,pdam,P. damicornis,OG,P0,NA,,,12:58,13:12,13:18,13:27,,,partly cloudy,17798654,722879.5
+hi04,09/24/2021,no_short,kbay_A,small_monti,M. capitata,OG,P0,NA,,,13:36,13:44,13:46,13:53,,,partly cloudy,3386068,381592.3
+hi05,09/28/2021,y,kbay_A,por_mont,P. compressa,OG,P0,NA,,,14:37,14:53,14:58,15:07,,,overcast,9763540,710764.3
+hi06,09/28/2021,y,kbay_A,monti_spire,M. capitata,OG,P0,NA,,,15:14,15:27,15:28,15:39,,,overcast,3184701,604339.3
+hi07,09/28/2021,y,kbay_A,monti_dense,M. capitata,OG,P0,NA,,,15:45,15:55,16:03,16:17,,,overcast,15435740,931484.1
+hi08,10/01/2021,y,kbay_A,comp_mound,P. compressa,OG,P0,NA,,,14:23,14:30,14:35,14:43,,,partly cloudy,13820232,543184.5
+hi09,10/01/2021,y,kbay_A,small_pdam,P. damicornis,OG,P0,NA,,,14:55,15:09,15:11,15:21,,,partly cloudy,2958541,403341.3
+hi10,10/01/2021,no_leak,kbay_A,small_por,P. compressa,OG,P0,NA,,,15:35,15:47,15:49,16:01,,,partly cloudy,3010532,351533
+hi11,10/05/2021,y,kbay_A,bare_lept,Rock/Turf,OG,P0,NA,,,13:00,13:18,13:25,13:38,,,overcast,6004232,529907.5
+hi12,10/05/2021,y,kbay_A,brown_mont,M. capitata,OG,P0,NA,,,14:26,14:30,14:32,14:44,,,partly cloudy,10276611,589524
+hi13,10/22/2021,y,kbay_A,por_poc,P. compressa,OG,P0,NA,,,11:56,12:09,12:13,12:25,,,partly cloudy,2702800,558788.1
+hi14,10/22/2021,y,kbay_A,poc_med1,P. damicornis,OG,P0,NA,,,12:30,12:48,12:50,13:05,,,partly cloudy,2433776,589541.5
+hi15,10/22/2021,y,kbay_A,mont_poc,M. capitata,OG,P0,NA,,,13:06,13:22,13:28,13:48,,,partly cloudy,6011013,529291.1
+hi16,10/22/2021,y,kbay_A,poc_med2,P. damicornis,OG,P0,NA,,,14:00,14:15,14:17,14:30,,,partly cloudy,4158786,625622.5
+hi17,10/22/2021,y,kbay_A,fungid,Lobactis,OG,P0,NA,,,14:37,14:47,14:52,14:59,,,partly cloudy,2394322,354638.7
+hi18,11/15/2021,y,kbay_B,mcap_sand,M. capitata,OG,P0,NA,,,15:24,15:39,15:41,15:51,,,overcast,1963424,474123
+hi19,11/17/2021,no_3Ddata,kbay_B,thin_por,P. compressa,OG,P0,NA,,,12:05,12:13,12:14,12:21,,,sunny,,
+hi20,11/17/2021,y,kbay_B,brown_mcap2,M. capitata,OG,P0,NA,,,11:34,11:46,11:47,11:59,,,sunny,9609329,752494
+hi21,11/17/2021,no_leak,kbay_B,thin_mcap,M. capitata,OG,P0,NA,,,12:21,12:33,12:39,12:45,,,sunny_flat,,
+hi22,11/17/2021,no_leak,kbay_C,column_mcao,M. capitata,OG,P0,NA,,,13:37,13:44,13:51,13:54,,,sunny_flat,,
+hi22b,11/21/2021,no_leak,kbay_C,column_mcao,M. capitata,OG,P0,NA,,,13:20,13:35,13:37,13:49,,,sunny_flat,,
+hi23,11/17/2021,y,kbay_C,fluffy_por,M. capitata,OG,P0,NA,,,14:02,14:13,14:23,14:28,,,sunny,5043974,604775
+hi24,11/17/2021,no_leak,kbay_C,flat_monti,M. capitata,OG,P0,NA,,,14:34,15:04,15:06,15:15,,,sunny_flat,,
+hi24b,11/21/2021,no_leak,kbay_C,flat_monti,M. capitata,OG,P0,NA,,,14:04,14:14,14:16,14:24,,,sunny_flat,,
+hi25,11/17/2021,no_leak,kbay_C,big_por,P. compressa,OG,P0,NA,,,15:28,15:40,15:42,15:50,,,sunny_flat,,
+hi25b,11/21/2021,no_3Ddata,kbay_C,big_por,P. compressa,OG,P0,NA,,,11:56,12:20,12:22,12:35,,,sunny,,
+hi25c,11/21/2021,no_leak,kbay_C,big_por,P. compressa,OG,P0,NA,,,13:51,14:01,14:01,14:08,,,sunny_flat,,
+hi26,11/21/2021,no_leak,kbay_C,double_por,P. compressa,OG,P0,NA,,,12:41,12:57,12:59,13:15,,,sunny_flat,,
+hi27,11/24/2021,no_3Ddata,kbay_A,por_pdam,P. compressa,OG,P0,NA,,,12:42,12:50,12:58,13:09,,,partly cloudy,,
+hi28,11/24/2021,no_3Ddata,kbay_A,pdam_rock,P. damicornis,OG,P0,NA,,,13:13,13:30,13:32,13:41,,,partly cloudy,,
+hi29,11/24/2021,no_3Ddata,kbay_A,bulky_mcap,M. capitata,OG,P0,NA,,,13:46,13:55,13:59,14:07,,,partly cloudy,,
+hi30,03/21/2022,y,kbay_A,lagoon_pcom,P. compressa,OG,P0,NA,,,12:17,12:41,12:42,12:56,,,sunny_deep,12321296,767759
+hi31,03/21/2022,y,kbay_A,lagoon_mcap,M. capitata,OG,P0,NA,,,13:01,13:14,13:40,13:45,,,sunny_deep,10634530,595881
+hi32,03/21/2022,y,kbay_A,large_pcom,P. compressa,OG,P0,NA,,,13:55,14:09,14:10,14:28,,,partly cloudy,37043256,917205
+hi33,03/21/2022,y,kbay_A,pdam_rock2,P. damicornis,OG,P0,NA,,,14:35,14:47,14:48,14:59,,,partly cloudy,4212951,498822
+hi34,03/22/2022,y,kbay_A,pcom_round,P. compressa,OG,P0,NA,,,13:52,14:07,14:09,14:21,,,overcast_partly,24855972,725130
+hi35,03/22/2022,y,kbay_A,pcom_med,P. compressa,OG,P0,NA,,,14:32,14:46,14:47,15:00,,,overcast_partly,7069284,769614
+hi36,03/22/2022,y,kbay_A,rock,Rock/Turf,OG,P0,NA,,,15:07,15:22,15:23,15:35,,,overcast_partly,6362376,492309

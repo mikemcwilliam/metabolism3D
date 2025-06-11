@@ -1,0 +1,87 @@
+site,date,successful,location,description,dominant,chamber,oxy probe A,oxy probe B,light probe A,light probe B,PS start,PS end,R start,R end,lat,long,am_pm
+site01,23/10/2024,y,Casuarina,massive porites medium,Porites,bl 1,probe 1,probe 2,light 1,light 2,11:19,11:44,11:55,12:30,-14.674481,145.444403,morningA
+site02,23/10/2024,y,Casuarina,dead branching,Turf_dead,bl 2,probe 3 ,probe 4,light 3 ,light 4,11:35,11:57,12:03,12:30,-14.674481,145.444403,morningA
+site03,23/10/2024,y,Casuarina,staghorn,Acropora,bl 1,probe 1,probe 2,light 1,light 2,15:16,15:43,15:52,16:22,-14.675809,145.445464,afternoonB
+site04,23/10/2024,y,Casuarina,massive porites small,Porites,bl 2,probe 3 ,probe 4,light 3 ,light 4,15:26,15:53,15:57,16:28,-14.675809,145.445464,afternoonB
+site05,24/10/2024,y,Outer Jo's,foliose echino,Foliose,bl 1,probe 1,probe 4,light 3,light 4,10:19,10:49,10:55,11:25,-14.685786,145.454129,morningA
+site06,24/10/2024,y,Outer Jo's,branching echino,Branching_other,bl 2,probe 3 ,probe 2,light 1,light 2,10:25,10:55,11:00,11:29,-14.685786,145.454129,morningA
+site07,24/10/2024,y,Jo's cove,Acro corym,Acropora,bl 1,probe 1,probe 2,light 1,light 2,14:59,15:29,15:30,15:58,-14.687259,145.454091,afternoonB
+site08,24/10/2024,no_leak,Jo's cove,Poc + fish,Pocillopora_fish,bl 2,probe 3 ,probe 4,light 3,light 4,14:50,15:15,15:26,15:54,-14.687259,145.454091,afternoonB
+site09,25/10/2024,y,Outer Jo's,branching por small,Branching_other,bl 1,probe 1,probe 2,light 1,light 2,09:32,10:05,10:09,10:36,-14.687188,145.454664,morningA
+site10,25/10/2024,y,Outer Jo's,Poc + fish 2,Pocillopora_fish,bl 2,probe 3 ,probe 4,light 3,light 4,09:24,09:54,10:03,10:31,-14.687188,145.454664,morningA
+site11,25/10/2024,y,Jo's cove,coscinarea,Mound_other,bl 1,probe 1,probe 2,light 1,light 2,14:41,15:13,15:22,15:50,-14.687233,145.453756,afternoonB
+site12,25/10/2024,y,Jo's cove,small poc,Pocillopora,bl 2,probe 3 ,probe 4,light 3,light 4,14:53,15:24,15:28,15:56,-14.687233,145.453756,afternoonB
+site13,26/10/2024,y,Casuarina,small stag,Acropora,bl 1,probe 1,probe 2,light 1,light 2,10:28,10:55,10:57,11:22,-14.675269,145.444848,morningA
+site14,26/10/2024,y,Casuarina,por and rock,Porites,bl 2,probe 3 ,probe 4,light 3,light 4,10:47,11:12,11:15,11:35,-14.675269,145.444848,morningA
+site15,26/10/2024,y,Casuarina,small por/fav,Mound_other,bl 1,probe 1,probe 2,light 1,light 2,14:40,15:07,15:07,15:30,-14.676222,145.444818,afternoonB
+site16,26/10/2024,y,Casuarina,large favid,Mound_other,bl 2,probe 3 ,probe 4,light 3,light 4,14:28,14:58,15:02,15:21,-14.676222,145.444818,afternoonB
+site17,28/10/2024,y,Casuarina,Turf rock,Turf_dead,bl 1,probe 2,NA,light 3,light 4,10:18,10:48,11:00,11:30,-14.676008,145.445528,morningA
+site18,28/10/2024,y,Casuarina,Acro corym2,Acropora,bl 2,probe 3 ,probe 4,light 1,light 2,10:30,11:15,11:15,11:40,-14.676008,145.445528,morningA
+site19,28/10/2024,y,Casuarina,Monti,Mound_other,wh 3,probe 1,NA,light 5,light 6,10:20,10:56,11:08,11:35,-14.676008,145.445528,morningA
+site20,28/10/2024,y,Casuarina,A. sarmentosa,Acropora,bl 1,probe 2,NA,light 3,light 4,15:11,15:33,15:47,16:15,-14.675692,145.445678,afternoonB
+site21,28/10/2024,y,Casuarina,Folio-soft,Soft coral,bl 2,probe 3 ,probe 4,light 1,light 2,15:19,15:34,15:51,16:20,-14.675692,145.445678,afternoonB
+site22,28/10/2024,y,Casuarina,Soft coral,Soft coral,wh 3,probe 1,NA,light 5,light 6,15:13,15:27,15:39,16:10,-14.675692,145.445678,afternoonB
+site23,29/10/2024,y,Watsons,white poc,Pocillopora,bl 1,probe 3 ,probe 4,light 3,light 4,10:16,10:46,10:55,11:23,-14.666936,145.445548,morningA
+site24,29/10/2024,y,Watsons,dead poc,Turf_dead,bl 2,probe 1,NA,light 1,light 2,10:26,10:55,11:11,11:35,-14.666936,145.445548,morningA
+site25,29/10/2024,y,Watsons,sandy porites,Porites,wh 3,probe 2,NA,light 5,light 6,10:28,11:11,11:20,11:40,-14.666936,145.445548,morningA
+site26,29/10/2024,y,Casuarina,soft x 2,Soft coral,bl 1,probe 1,NA,light 1,light 2,14:45,15:10,15:20,15:55,-14.675525,145.445489,afternoonB
+site27,29/10/2024,y,Casuarina,seagrass,Seagrass,bl 2,probe 3 ,probe 4,light 3,light 4,14:50,15:23,15:30,15:59,-14.675525,145.445489,afternoonB
+site28,29/10/2024,y,Casuarina,tiny poc,Pocillopora,wh 3,probe 2,NA,light 5,light 6,14:55,15:32,15:43,16:05,-14.675525,145.445489,afternoonB
+site29,31/10/2024,y,Mermaids Cove,SC reef,Soft coral,bl 2,probe 3 ,probe 4,light 3,light 4,09:55,10:27,10:41,11:10,-14.64789,145.454171,bothAB
+site30,31/10/2024,y,Mermaids Cove,juvy acro,Turf_dead,wh 3,probe 2,NA,light 5,light 6,10:05,10:35,10:56,11:20,-14.64789,145.454171,bothAB
+site31,31/10/2024,y,Mermaids Cove,dead stag,Turf_dead,bl 1,probe 1,NA,light 1,light 2,10:07,10:41,10:53,11:20,-14.64789,145.454171,bothAB
+site32,31/10/2024,y,Mermaids Cove,pori SC shallow,Porites,bl 1,probe 3 ,probe 4,light 3,light 4,11:15,12:00,12:12,12:43,-14.64789,145.454171,bothAB
+site33,31/10/2024,y,Mermaids Cove,baby pori,Porites,wh 3,probe 2,NA,light 5,light 6,11:20,11:53,12:05,12:36,-14.64789,145.454171,bothAB
+site34,31/10/2024,y,Mermaids Cove,pori deep,Porites,bl 2,probe 1,NA,light 1,light 2,11:34,12:18,12:18,12:48,-14.64789,145.454171,bothAB
+site35,01/11/2024,y,Sterlings patch,branching pori,Branching_other,wh 3,probe 1,NA,light 5,light 6,09:57,10:28,11:06,11:35,-14.686816,145.457621,bothAB
+site36,01/11/2024,y,Sterlings patch,mass por,Porites,bl 1,probe 2,NA,light 3,light 4,10:07,10:35,11:13,11:25,-14.686816,145.457621,bothAB
+site37,01/11/2024,y,Sterlings patch,monti branch,Branching_other,bl 2,probe 3 ,probe 4,light 1,light 2,10:15,10:43,11:23,11:50,-14.686816,145.457621,bothAB
+site38,01/11/2024,y,Sterlings patch,favi medium,Mound_other,wh 3,probe 1,NA,light 5,light 6,10:30,11:00,11:38,12:10,-14.686816,145.457621,bothAB
+site39,01/11/2024,y,Sterlings patch,favi small,Mound_other,bl 1,probe 2,NA,light 3,light 4,10:38,11:08,11:45,12:15,-14.686816,145.457621,bothAB
+site40,01/11/2024,y,Sterlings patch,softy,Soft coral,bl 2,probe 3 ,probe 4,light 1,light 2,10:46,11:13,11:53,12:20,-14.686816,145.457621,bothAB
+site41,02/11/2024,y,exposed lagoon,big iso,Acropora,wh 4,probe 1,NA,light 3,NA,10:20,10:48,11:37,11:45,-14.696617,145.457444,morningA
+site42,02/11/2024,y,exposed lagoon,small iso,Acropora,bl 1,probe 3 ,NA,NA,NA,10:36,11:20,11:20,11:28,-14.696617,145.457444,morningA
+site43,02/11/2024,y,exposed lagoon,small stag,Acropora,wh 3,probe 2,NA,light 4,NA,10:15,11:11,11:11,11:30,-14.696617,145.457444,morningA
+site44,02/11/2024,y,exposed lagoon,large stag,Acropora,bl 2,probe 4,NA,light 1,light 2,10:30,10:53,10:56,11:12,-14.696617,145.457444,morningA
+site45,03/11/2024,y,casuarina,table coral,Acropora,bl 1,probe 2,NA,light 4,NA,11:06,11:30,11:32,12:00,-14.676276,145.446331,morningA
+site46,03/11/2024,y,casuarina,tiny pori,Porites,bl 2,probe 4,NA,light 3,NA,11:28,11:39,11:38,12:05,-14.676276,145.446331,morningA
+site47,03/11/2024,y,casuarina,sarmentosa L,Acropora,wh 4,probe 1,probe 3,light 2,NA,11:17,11:42,11:45,12:08,-14.676276,145.446331,morningA
+site45_swap,03/11/2024,y,casuarina,table coral,Acropora,wh 4,probe 2,NA,light 2,NA,10:25,11:05,NA,NA,-14.676276,145.446331,morningA
+site46_swap,03/11/2024,y,casuarina,tiny pori,Porites,bl 1,probe 4,NA,light 4,NA,10:31,10:56,NA,NA,-14.676276,145.446331,morningA
+site47_swap,03/11/2024,y,casuarina,sarmentosa L,Acropora,bl 2,probe 1,probe 3,light 3,NA,10:37,11:03,NA,NA,-14.676276,145.446331,morningA
+site48,05/11/2024,y,casuarina,acro_algae,Acropora,wh 3,probe 1,probe 3,light 1,light 3,15:17,15:42,15:44,16:09,-14.676215,145.4463,afternoonB
+site49,05/11/2024,y,casuarina,pori_algae,Porites,wh 4,probe 2,probe 4,light 2,light 4,14:43,15:09,15:51,16:15,-14.676215,145.4463,afternoonB
+site48_pump,05/11/2024,y,casuarina,acro_algae,Acropora,wh 3,probe 1,probe 3,light 1,light 3,14:41,15:06,NA,NA,-14.676215,145.4463,afternoonB
+site49_pump,05/11/2024,y,casuarina,pori_algae,Porites,wh 4,probe 2,probe 4,light 2,light 4,15:13,15:38,NA,NA,-14.676215,145.4463,afternoonB
+site50,06/11/2024,y,casuarina,soft x2 again,Soft coral,wh 3,probe 3 ,NA,light 1,light 4,10:38,11:10,12:01,12:25,-14.674138,145.444873,morningA
+site51,06/11/2024,y,casuarina,seagrass 2,Seagrass,bl 1,probe 2,NA,light 3,NA,10:51,11:16,11:20,11:40,-14.674138,145.444873,morningA
+site52,06/11/2024,y,casuarina,baby pver,Pocillopora,wh 4,probe 1,probe 4,light 2,NA,11:36,12:02,12:04,12:30,-14.674138,145.444873,morningA
+site53,06/11/2024,y,casuarina,seagrass 3,Seagrass,bl 1,probe 2,NA,light 3,NA,11:45,12:10,12:12,12:35,-14.674138,145.444873,morningA
+site50_pump,06/11/2024,y,casuarina,soft x2 again,Soft coral,wh 3,probe 3 ,NA,light 1,light 4,11:35,12:00,NA,NA,-14.674138,145.444873,morningA
+site52_pump,06/11/2024,y,casuarina,baby pver,Pocillopora,wh 4,probe 1,probe 4,light 2,NA,11:01,11:26,NA,NA,-14.674138,145.444873,morningA
+site54,08/11/2024,y,horseshoe,Acro_fish,Acropora,wh 4,probe 2,NA,light 1,NA,09:26,10:45,10:50,11:17,-14.686144,145.444166,morningA
+site55,08/11/2024,y,horseshoe,big_poc,Pocillopora,bl 1,probe 1,probe 3,light 4,NA,09:31,10:53,10:55,11:20?,-14.686144,145.444166,morningA
+site56,08/11/2024,y,horseshoe,big_soft,Soft coral,wh 3,probe 4,NA,light 2,light 3,09:39,10:39,11:15,11:40,-14.686144,145.444166,morningA
+site54_swap,08/11/2024,y,horseshoe,Acro_fish,Acropora,bl 1,probe 2,NA,light 4,NA,11:33,12:05,NA,NA,-14.686144,145.444166,morningA
+site55_swap,08/11/2024,y,horseshoe,big_poc,Pocillopora,wh 4,probe 1,probe 3,light 2,light 3,11:47,12:10,NA,NA,-14.686144,145.444166,morningA
+site56_swap,08/11/2024,y,horseshoe,big_soft,Soft coral,wh 3,probe 4,NA,light 1,NA,11:42,12:00,NA,NA,-14.686144,145.444166,morningA
+site57,08/11/2024,y,Casuarina,sarm_clean,Acropora,wh 4,probe 2,NA,light 1,NA,15:00,15:25,15:46,16:10,-14.674138,145.444873,afternoonB
+site58,08/11/2024,y,Casuarina,sarm_big,Acropora,wh 3,probe 1,NA,light 2,light 3,15:05,15:30,15:40,16:05,-14.674138,145.444873,afternoonB
+site59,08/11/2024,y,Casuarina,sarm_alg,Acropora,bl 1,probe 3 ,probe 4,light 4,NA,15:10,15:36,15:51,16:15,-14.674138,145.444873,afternoonB
+site60,09/11/2024,y,horseshoe,Amillepora,Acropora,wh 4,probe 2,NA,light 1,NA,09:55,10:28,10:51,11:16,-14.686144,145.444166,morningA
+site61,09/11/2024,y,horseshoe,dead stag,Turf_dead,bl 1,probe 1,probe 4,NA,NA,10:02,10:32,10:33,11:04,-14.686144,145.444166,morningA
+site62,09/11/2024,y,horseshoe,mid poc,Pocillopora,wh 3,probe 3 ,NA,light 2,light 3,10:08,10:38,10:56,11:21,-14.686144,145.444166,morningA
+site63,09/11/2024,y,horseshoe,mid pori,Porites,wh 4,probe 2,NA,light 1,NA,10:29,10:40,11:22,11:30,-14.686144,145.444166,morningA
+sand01,09/11/2024,y,horseshoe,sand,Sand,wh 3,probe 3 ,NA,light 2,light 3,09:58,10:07,11:23,11:33,-14.686144,145.444166,morningA
+site64,10/11/2024,y,Mermaids Cove,poc patch,Pocillopora,wh 4,probe 3 ,probe 4,light 1,NA,11:38,12:01,12:01,12:38,-14.64789,145.454171,morningA
+site65,10/11/2024,y,Mermaids Cove,blue stag,Acropora,wh 3,probe 1,NA,light 2,light 3,10:53,11:21,11:38,12:05,-14.64789,145.454171,morningA
+site66,10/11/2024,y,Mermaids Cove,soft patch,Soft coral,bl 1,probe 2,NA,NA,NA,11:00,11:29,12:05,12:41,-14.64789,145.454171,morningA
+site67,10/11/2024,y,Mermaids Cove,dead stag long,Turf_dead,wh 3,probe 1,NA,light 2,light 3,12:22,12:32,12:07,12:15,-14.64789,145.454171,morningA
+site64_pump,10/11/2024,y,Mermaids Cove,poc patch,Pocillopora,wh 4,probe 3 ,probe 4,light 1,NA,11:00,11:28,NA,NA,-14.64789,145.454171,morningA
+site66_pump,10/11/2024,y,Mermaids Cove,soft patch,Soft coral,bl 1,probe 2,NA,NA,NA,11:31,11:54,NA,NA,-14.64789,145.454171,morningA
+site68,11/11/2024,y,Casuarina,goni lobes,Mound_other,wh 3,probe 2,NA,light 2,NA,11:14,11:43,11:46,12:06,-14.676567,145.444969,morningA
+site69,11/11/2024,y,Casuarina,small goni,Mound_other,wh 4,probe 3 ,NA,light 1,NA,11:19,11:47,11:49,12:10,-14.676567,145.444969,morningA
+site70,11/11/2024,y,Casuarina,algae patch,Turf_dead,bl 1,probe 1,probe 4,light 3,NA,12:30,12:41,12:00,12:20,-14.676567,145.444969,morningA
+sand02,11/11/2024,y,Casuarina,sand,Sand,wh 4,probe 3 ,NA,light 1,NA,12:26,12:46,12:11,12:20,-14.676567,145.444969,morningA
+site68_pump,11/11/2024,y,Casuarina,goni lobes,Mound_other,wh 3,probe 2,NA,light 2,NA,12:08,12:28,NA,NA,-14.676567,145.444969,morningA
+site70_pump,11/11/2024,y,Casuarina,algae patch,Turf_dead,bl 1,probe 1,probe 4,light 3,NA,11:35,11:56,NA,NA,-14.676567,145.444969,morningA

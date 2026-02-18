@@ -141,6 +141,7 @@ O2 <- O2[!(O2$site=="site23" & O2$probe=="P4"),]
 O2 <- O2[!(O2$site=="site29" & O2$probe=="P3"),]
 
 # site10 probe3 - buried in sand? 
+# site40 probe3 - buried in sand? 
 
 #################################### combine gbr/hi
 
@@ -272,8 +273,10 @@ ggplot()+geom_point(data=params, aes(y=site, x=tempHOBO_PS)),ggplot()+geom_point
 #####################################
 #################################### Plots
 
-for(site in unique(times$site)){
-	site <- "site21"
+# site57
+
+#for(site in unique(times$site)){
+	site <- "site15"
 df.time <- times[times$site %in% site,]
 par.df <- par[par$site %in% site,]
 o2.df <- dat[dat$site %in% site,]
@@ -370,7 +373,62 @@ title <- ggdraw() + draw_label(site, fontface='bold')
 plot <- plot_grid(title,plot_grid(plot_grid(pO2day, pPARday, pTEMPday, ncol=1),plot_grid(pO2site,pPARsite, pTEMPsite, ncol=1)), ncol=1, rel_heights=c(0.1, 1))
 plot
 
-ggsave(paste("probe_data/plots/", site, ".png", sep=""), plot, width=11, height=15, units="cm", dpi = 300)
-}
+#ggsave(paste("probe_data/plots/", site, ".png", sep=""), plot, width=11, height=15, units="cm", dpi = 300)
+#}
+
+
+
+
+
+
+
+
+# example plot
+
+
+pO2site<-ggplot()+
+geom_rect(data=df.time, aes(xmin=PS.start,xmax=PS.end, ymin=-Inf, ymax=Inf, group=site), fill="green", alpha=0.5)+
+geom_rect(data=df.time, aes(xmin=R.start,xmax=R.end, ymin=-Inf, ymax=Inf, group=site), fill="blue", alpha=0.5)+
+geom_point(data=o2.df, aes(Time, O2mgL), col="grey")+
+geom_point(data=o2.df[!is.na(o2.df$type),], aes(Time, O2mgL))+
+geom_line(data=p.line, aes(Time, pred, group=probe), col="red")+
+geom_line(data=r.line, aes(Time, pred, group=probe), col="red")+
+ggtitle("Oxygen probe")+theme(plot.title=element_text(size=8))+
+theme_bw()+theme(plot.title=element_text(size=8))
+pO2site
+
+
+
+pPARsite<-ggplot()+
+geom_rect(data=df.time, aes(xmin=PS.start,xmax=PS.end, ymin=0, ymax=Inf, group=site), fill="green", alpha=0.5)+
+geom_rect(data=df.time, aes(xmin=R.start,xmax=R.end, ymin=0, ymax=Inf, group=site), fill="blue", alpha=0.5)+
+geom_point(data=par.df, aes(Time, PAR), col="grey")+
+geom_point(data=par.df[!is.na(par.df$type),], aes(Time, PAR))+
+scale_y_sqrt()+
+labs(y="Light intensity (lux)")+
+geom_segment(data=pars, aes(y=parPS, yend=parPS, x=df.time$PS.start, xend=df.time$PS.end), col="red")+
+geom_segment(data=pars, aes(y=parR, yend=parR, x=df.time$R.start, xend=df.time$R.end), col="red")+
+ggtitle("Light reader")+theme_bw()+theme(plot.title=element_text(size=8))
+pPARsite
+
+
+pTEMPsite <- ggplot()+
+geom_rect(data=df.time, aes(xmin=PS.start,xmax=PS.end, ymin=-Inf, ymax=Inf, group=site), fill="green", alpha=0.5)+
+geom_rect(data=df.time, aes(xmin=R.start,xmax=R.end, ymin=-Inf, ymax=Inf, group=site), fill="blue", alpha=0.5)+
+#geom_point(data=o2.df, aes(Time, TempC), size=0.1)+
+#geom_point(data=par.df, aes(Time, TempC), size=0.1)+
+geom_point(data=o2.df[!is.na(o2.df$type),], aes(Time, TempC))+
+#geom_point(data=par.df[!is.na(par.df$type),], aes(Time, TempC), col="slategrey")+
+geom_segment(data=pars, aes(y=tempO2_PS, yend=tempO2_PS, x=df.time$PS.start, xend=df.time$PS.end), col="red")+
+#scale_x_continuous(n.breaks=3)+
+geom_segment(data=pars, aes(y=tempO2_R, yend=tempO2_R, x=df.time$R.start, xend=df.time$R.end), col="red")+
+geom_segment(data=pars, aes(y=tempHOBO_PS, yend=tempHOBO_PS, x=df.time$PS.start, xend=df.time$PS.end), col="red")+
+geom_segment(data=pars, aes(y=tempHOBO_R, yend=tempHOBO_R, x=df.time$R.start, xend=df.time$R.end), col="red")+
+#ylim(c(22,30))+
+ggtitle("Temperature logger")+theme_bw()+theme(plot.title=element_text(size=8))
+pTEMPsite
+
+plot_grid(pO2site, pPARsite,pTEMPsite, ncol=1, align="hv", axis="lr")
+
 
 

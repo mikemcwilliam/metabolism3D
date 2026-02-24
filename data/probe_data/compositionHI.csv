@@ -68,9 +68,9 @@ hi22,site022,N,vol,NA,NA,NA,NA,NA
 hi22b,site022b,N,area,NA,NA,NA,NA,NA
 hi22b,site022b,N,planar,NA,NA,NA,NA,NA
 hi22b,site022b,N,vol,NA,NA,NA,NA,NA
-hi23,site023,y,area,NA,NA,333379,NA,NA
-hi23,site023,y,planar,NA,NA,59928,NA,NA
-hi23,site023,y,vol,NA,NA,3669967,NA,NA
+hi23,site023,y,area,NA,333379,NA,NA,NA
+hi23,site023,y,planar,NA,59928,NA,NA,NA
+hi23,site023,y,vol,NA,3669967,NA,NA,NA
 hi24,site024,N,area,NA,NA,NA,NA,NA
 hi24,site024,N,planar,NA,NA,NA,NA,NA
 hi24,site024,N,vol,NA,NA,NA,NA,NA

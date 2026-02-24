@@ -14,7 +14,7 @@ library("ggmap")
 
 
 
-locs <- read.csv("latlongs.csv")
+locs <- read.csv("data/latlongs.csv")
 head(locs)
 
 ggplot(locs, aes( long, lat))+geom_point()

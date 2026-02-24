@@ -97,7 +97,6 @@ d$Vol[d$site=="site46"] <- 226
 d$Vol[d$site=="site36"] <- 28000
 d$Vol[d$site=="site63"] <- 3357.806
 
-
 df$siteRep <- df$site
 df$site <- gsub("_pump", "", df$site )
 df$site <- gsub("_swap", "", df$site )
@@ -112,7 +111,6 @@ df$Volm3 <- df$Volcm3 * 0.000001
 df$PA <- (d$PA[match(df$site, d$site)]) * 0.0001 
 df$PA[df$dominant=="Sand"] <- chamb_planar
 df$Rug <- df$SAm2  /  df$PA  #chamb_planar
-
 
 head(df)
 
